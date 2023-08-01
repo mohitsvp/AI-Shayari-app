@@ -30,7 +30,7 @@ const GenerateText = () => {
         animate={{opacity : 1, y : 0}}
         transition={{duration : 0.5}}
     >
-        <Box p="4" bg="whitesmoke" h="100vh">
+        <Box p="4" bg="whitesmoke"  bgGradient="linear(to right, #48b1bf, #06beb6)" h="100vh">
             <Box borderWidth={'1px'} borderRadius={'md'} w="50%" m="auto" p="5" bg="white" boxShadow={'lg'}>
                 <Heading textAlign={'center'} mb="10">Generate {task}</Heading>
                 <FormControl mb="5">
@@ -59,7 +59,7 @@ const GenerateText = () => {
                         </Box>
                     ) : (
                         <Box p="2" borderWidth="1px" borderRadius="md" mt="2" overflow={'auto'} maxHeight={'320px'}>
-                            <pre><Text textAlign={'center'}>{text}</Text></pre>
+                            <pre><Text style={{textAlign: 'center', fontWeight: 'bold', fontStyle: 'italic', fontSize: '20px'}}>{text}</Text></pre>
                         </Box>
                     )
                 }     

@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Shayari Generation Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the frontend code for the Shayari Generation web application. The frontend is built using React.js and Chakra UI for the user interface. It allows users to generate Shayari, Jokes, Stories, and Quotes based on keywords.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+- Node.js (v12 or higher)
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ```
+    git clone https://github.com/your-username/shayari-generation-frontend.git
+    cd shayari-generation-frontend
+    ```
 
-### `npm test`
+2. Install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```
+    npm install
+    ```
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```
+    npm start
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+    The frontend will run on `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- react: JavaScript library for building user interfaces
+- react-dom: Integration of React with the DOM
+- axios: Promise-based HTTP client for making API requests
+- @chakra-ui/react: UI component library for React
+- framer-motion: Library for animations in React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How to Use
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. The application allows users to generate Shayari, Jokes, Stories, or Quotes based on a keyword.
 
-## Learn More
+2. Enter a keyword in the "Enter Text" input field.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Select the type of content you want to generate from the dropdown menu.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Click on the "Generate" button.
 
-### Code Splitting
+5. The generated content will be displayed below the button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. If there is an error while generating the content, an error message will be shown.
 
-### Analyzing the Bundle Size
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The frontend of this application is deployed at: [https://your-deployed-frontend-url.com](https://your-deployed-frontend-url.com)
 
-### Making a Progressive Web App
+Replace `your-username` with your GitHub username in the repository URL and update the deployed URL with the correct URL where your frontend is deployed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Backend Integration
 
-### Advanced Configuration
+The frontend communicates with the backend API to generate the content. Make sure you have set up the backend API and provided the appropriate environment variables for the backend URL and OpenAI API key.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
 
-### Deployment
+If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License
 
-### `npm run build` fails to minify
+This project is licensed under the MIT License - see the License file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
