@@ -29,7 +29,7 @@ This repository contains the frontend code for the Shayari Generation web applic
     ```
 
 
-    The frontend will run on `http://localhost:3000`.
+    The frontend will run on `https://ai-content-generation.vercel.app/`.
 
 ## Dependencies
 
